@@ -1,0 +1,138 @@
+@charset "utf-8";
+*
+{
+    margin:0;
+    padding:0;
+
+}
+body
+{
+    background: url('song.jpg');
+    background-size:cover;
+    background-repeat:no repeat;
+    padding-left: 50px;
+    
+
+}
+.white
+{
+    
+    padding:50px;
+    float:left;
+    margin-left: 4px;
+    margin-top: 350px;
+    height:600px;
+    width:153px;
+    box-shadow:inset 0px 0px 30px 20px white;
+    cursor: pointer;
+}
+.black1, .black2, .black3, .black4,.black5, .black6, .black7, .black8, .black9
+{
+    position: absolute;
+    height:350px;
+    width:65px;
+    z-index: 99;
+    margin-top: 350px;
+    margin-left: -1445px;
+    border:1px solid black;
+    box-shadow:inset 0px 0px 10px 5px gray;
+    background:linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer;
+}
+.black1:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black2
+{
+    margin-left: -1288px;
+}
+.black2:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+/*.black3
+{
+    margin-left: -1130px;
+}
+.black3:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}*/
+.black4
+{
+    margin-left: -972px;
+}
+.black4:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black5
+{
+    margin-left: -815px;
+}
+.black5:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black6
+{
+    margin-left: -658px;
+}
+.black6:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+/*.black7
+{
+    margin-left: -500px;
+}
+.black7:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}*/
+.black8
+{
+    margin-left: -345px;
+}
+.black8:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black9
+{
+    margin-left: -188px;
+}
+.black9:active
+{
+    background:linear-gradient(to bottom, black 0%, gray 100%);
+}
+/*.image_one
+{
+    width:5%;
+    /*filter: drop-shadow(0 0 20px red);
+}
+.image_two
+{
+    width:17%;
+    float:right;
+}
+.image_three
+{
+    width:11%;
+    float:right;
+    margin-right: 20px;
+    transform: rotate(10deg);
+}
+.image_four
+{
+    width:15%;
+    float:right;
+    transform: rotate(-10deg);
+}
+.image_five
+{
+    width:10%;
+    float:right;
+    transform: rotate(25deg);
+}*/
